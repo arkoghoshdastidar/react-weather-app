@@ -38,7 +38,7 @@ function App() {
         })
 
       // gather gas concentration data
-      await fetch(`http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=${latitude}&lon=${longitude}&appid=${GEO_WEATHER_API_KEY}`)
+      await fetch(`https://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=${latitude}&lon=${longitude}&appid=${GEO_WEATHER_API_KEY}`)
         .then(response => {
           return response.json();
         })
@@ -47,7 +47,7 @@ function App() {
         })
 
       // weather forecast data
-      await fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${GEO_WEATHER_API_KEY}`)
+      await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${GEO_WEATHER_API_KEY}`)
         .then((response) => {
           return response.json()
         })
