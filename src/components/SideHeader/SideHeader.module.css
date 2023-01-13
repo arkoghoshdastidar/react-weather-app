@@ -1,0 +1,39 @@
+.side-header {
+    background: transparent;
+    width: 90%;
+    height: 15vh;
+    color: var(--white-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main {
+    text-align: center;
+}
+
+.small-text {
+    font-size: 10px;
+    color: var(--grey-text);
+}
+
+.header-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.header-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp {
+    font-size: 2.5rem;
+    font-weight: 700;
+}

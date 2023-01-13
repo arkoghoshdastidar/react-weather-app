@@ -1,0 +1,19 @@
+.card {
+    text-align: center;
+    background: transparent;
+    width: 70%;
+}
+
+.card .title {
+    color: var(--grey-text);
+    font-size: 1rem;
+    padding: 0;
+}
+
+.card .value {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}

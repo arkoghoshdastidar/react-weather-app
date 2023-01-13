@@ -1,0 +1,26 @@
+.footer-card {
+    color: var(--grey-text);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: invert(20%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.timing {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.small-container {
+    display: flex;
+    align-items: center;
+}
+
+.timing-container {
+    margin-left: 10px;
+}

@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+}
+
+.loading-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000033;
+}
+
+.loadup-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-image: url("./Assets/landing-page-background-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.98;
+}
+
+.loading-text {
+  font-size: 2rem;
+  color: #F5F5F5;
+}
+
+.no-city-found-container {
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  font-size: 2rem;
+  background-color: var(--card-background-color);
+  color: var(--blue-text);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

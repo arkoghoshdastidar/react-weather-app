@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --blue-text: #000033;
+  --grey-text: #BDBDBD;
+  --card-background-color: #F5F5F5;
+  --white-text: rgb(255, 255, 255);
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hide {
+  display: none;
+}
+
+.line {
+  width: 90%;
+  height: 0.5px;
+  background-color: white;
+}
+
+.fluid {
+  color: var(--white-text);
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.black {
+  color: black;
+}

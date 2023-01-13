@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    width: 90%;
+    height: 10vh;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header-without-date {
+    display: grid;
+    width: 90%;
+    height: 10vh;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+}

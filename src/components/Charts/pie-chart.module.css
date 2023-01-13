@@ -1,0 +1,14 @@
+.chart-container {
+    width: 90%;
+    height: 45vh;
+    color: var(--white-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.chart {
+    height: 40vh; 
+    width: 40vh;
+}

@@ -1,0 +1,13 @@
+.side-footer {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fluid {
+    color: var(--white-text);
+    width: 100%;
+}
