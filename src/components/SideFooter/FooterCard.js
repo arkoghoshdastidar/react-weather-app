@@ -6,7 +6,7 @@ const getEventTime = (time) => {
     let i = 0;
     let cnt = 0;
     while(cnt < 4) {
-        if(time[i] == ' ') cnt++;
+        if(time[i] === ' ') cnt++;
         i++;
     }
     let str = '';
