@@ -34,6 +34,7 @@ const PieChart = ({ gasConcentration }) => {
                 backgroundColor: ['#F43CF7', '#9B3CF7', '#097BEA', '#F7AF3C', 'cyan']
             }]
         })
+        // eslint-disable-next-line
     }, []);
 
     return (<div className={styles['chart-container']}>
