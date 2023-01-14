@@ -12,7 +12,7 @@ const PieChart = ({ gasConcentration }) => {
     const [dataSet, setDataSet] = useState({
         labels: ['NH3', 'NO', 'NO2', 'O3', 'SO2'],
         datasets: [{
-            label: 'Concentration (μh/m³)',
+            label: 'Concentration (μg/m³)',
             data: [],
             backgroundColor: []
         }]
